@@ -314,8 +314,24 @@ img{
     grid-template-columns: 2fr 2fr;
     padding: 7rem;
     
+}
+
+@media (max-width: 768px){
+    .contenedor-menu {
+    border-radius: 2rem;
+    padding: 1rem;
+    max-width: 95%;
+    max-height: 50%;
+    margin: 0 auto 0 auto;
+    background-color: rgba(11, 12, 6, 0.068);
+    box-shadow: 10px 8px 5px rgba(0, 0, 0, 0.575);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
     
 }
+
 .contenedor-imagen {
     max-width: 100%;
     height: 35vh;
